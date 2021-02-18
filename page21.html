@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" type="text/css" href="page11.css">
+
+<body style="background-color: #fff5e6;">
+
+  <!-- https://www.w3schools.com/css/css_website_layout.asp For the format of the Website, I played around based on the information from the link that I put. I used "Responsive Website Layout" However, I deleted a lot and changed format lots as well. -->
+
+  <div class="bg-img">
+  	<div class="container">
+
+  		<div class="dropdown">
+            <button class="dropbtn">Home</button>
+            <div class ="dropdown-content">
+              <a href="headPage.html">Main Page</a>
+            </div>
+          </div>
+    			<div class="dropdown">
+    				<button class="dropbtn">Cinderella</button>
+    				<div class ="dropdown-content">
+    					<a href="page11.html">About Me</a>
+    					<a href="page12.html">Family</a>
+    				</div>
+    			</div>
+
+    			<div class="dropdown">
+            <button class="dropbtn">Life Story</button>
+            <div class ="dropdown-content">
+              <a href="page21.html">Footage</a>
+            </div>
+          </div>
+
+    			<div class="dropdown">
+    				<button class="dropbtn">Contact</button>
+    				<div class ="dropdown-content">
+    					<a href="page31.html">Contact</a>
+    				</div>
+    			</div>
+
+
+    		</div>
+    	</div>
+    </div>
+
+
+</head>
+<body>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+
+
+
+
+      <h2>My Story</h2>
+      <h5>Footage</h5>
+<br><br><br><br><br><br>
+<p><button onclick="myFunction()">1</button>
+<button onclick="myFunction1()">2</button>
+<button onclick="myFunction2()">3</button>
+<button onclick="myFunction3()">4</button>
+<button onclick="myFunction4()">5</button>
+<button onclick="myFunction5()">6</button>
+<button onclick="myFunction6()">7</button>
+<button onclick="myFunction7()">8</button>
+<button onclick="myFunction8()">9</button>
+<button onclick="myFunction9()">10</button></p>
+<p> <div id="myDIV">1</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <div id="myDIV1">2</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div id="myDIV2">3</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <div id="myDIV3">4</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div id="myDIV4">5</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div id="myDIV5">6</div> <br>
+<div id="myDIV6">7</div> <br>
+<div id="myDIV7">8</div> <br>
+<div id="myDIV8">9</div> <br>
+<div id="myDIV9">10</div> <br>
+         </p>
+      <svg height="110" width="1000">
+
+        <line x1="0" y1="100" x2="35" y2="100" style="stroke:rgb(255,0,0);stroke-width:2" />
+        <line x1="35" y1="100" x2="200" y2="0" style="stroke:rgb(255,0,0);stroke-width:2" />
+        <line x1="200" y1="0" x2="300" y2="100" style="stroke:rgb(255,0,0);stroke-width:2" />
+        <line x1="300" y1="100" x2="350" y2="100" style="stroke:rgb(255,0,0);stroke-width:2" />
+      </svg>
+      <p>1 &nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp; 4&nbsp;&nbsp; 5 &nbsp;&nbsp;6 &nbsp;&nbsp;7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  9
+        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  10</p>
+        <p> Introduction - Rising Action - Falling Action - Resolution </p>
+<br><br><br><br><br><br>
+      <p> Click the Buttons!</p>
+
+
+      <script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "1") {
+    x.innerHTML = "Cinderella lives unhappily with her stepmother and stepsisters";
+  } else {
+    x.innerHTML = "1";
+  }
+}
+
+function myFunction1() {
+  var x = document.getElementById("myDIV1");
+  if (x.innerHTML === "2") {
+    x.innerHTML = "Cinderella family got an invitation to a ball";
+  } else {
+    x.innerHTML = "2";
+  }
+}
+
+function myFunction2() {
+  var x = document.getElementById("myDIV2");
+  if (x.innerHTML === "3") {
+    x.innerHTML = "Stepsister and stepmother started to prepare to go to the ball, while they are ordering Cinderella to finish the household work.";
+  } else {
+    x.innerHTML = "3";
+  }
+}
+
+function myFunction3() {
+  var x = document.getElementById("myDIV3");
+  if (x.innerHTML === "4") {
+    x.innerHTML = "A fairy godmother appears and provides Cinderella with clothes and things that she needs to attend the ball while she was crying because of the fact that she cannot go to the ball eventhough she desperately wanted.";
+  } else {
+    x.innerHTML = "4";
+  }
+}
+
+function myFunction4() {
+  var x = document.getElementById("myDIV4");
+  if (x.innerHTML === "5") {
+    x.innerHTML = "Cinderella goes to the ball and dances with the prince.";
+  } else {
+    x.innerHTML = "5";
+  }
+}
+
+function myFunction5() {
+  var x = document.getElementById("myDIV5");
+  if (x.innerHTML === "6") {
+    x.innerHTML = "Cinderella leaves hurriedly at midnight and loses a glass shoe";
+  } else {
+    x.innerHTML = "6";
+  }
+}
+
+function myFunction6() {
+  var x = document.getElementById("myDIV6");
+  if (x.innerHTML === "7") {
+    x.innerHTML = "The prince announces that he will marry the women who the shoe fits";
+  } else {
+    x.innerHTML = "7";
+  }
+}
+
+function myFunction7() {
+  var x = document.getElementById("myDIV7");
+  if (x.innerHTML === "8") {
+    x.innerHTML = "Prince visits Cinderella house, and the stepsisters try to foce their feet into the shoe, but it fits Cinderella.";
+  } else {
+    x.innerHTML = "8";
+  }
+}
+
+function myFunction8() {
+  var x = document.getElementById("myDIV8");
+  if (x.innerHTML === "9") {
+    x.innerHTML = "Cinderella and the prince marry";
+  } else {
+    x.innerHTML = "9";
+  }
+}
+
+function myFunction9() {
+  var x = document.getElementById("myDIV9");
+  if (x.innerHTML === "10") {
+    x.innerHTML = "They live happily ever after.";
+  } else {
+    x.innerHTML = "10";
+  }
+}
+</script>
+
+
+
+
+</div>
+
+<div class="footer">
+
+  <h2 style="height:80px;">  </h2>
+</div>
+
+</body>
+
+</html>
